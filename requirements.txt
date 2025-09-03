@@ -4,3 +4,5 @@ langchain_community
 langgraph
 dotenv
 langgraph-supervisor
+langchain_google_genai
+google-search-results
