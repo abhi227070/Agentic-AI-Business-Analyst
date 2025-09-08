@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 from langchain_community.utilities import SQLDatabase
 from langchain_community.agent_toolkits import SQLDatabaseToolkit
 from components.model import Model
-<<<<<<< HEAD
 import matplotlib.pyplot as plt
 import seaborn as sns
 import base64
@@ -14,16 +13,10 @@ from langchain_google_community.gmail.utils import (
     build_resource_service,
     get_gmail_credentials,
 )
-=======
->>>>>>> 5687d1458f8f749b4f7c4e92d71858a83a35d320
 
 #-------------------------------------------------------------------------
 # Math tool
 #-------------------------------------------------------------------------
-<<<<<<< HEAD
-=======
-
->>>>>>> 5687d1458f8f749b4f7c4e92d71858a83a35d320
 @tool
 def math_tool(expression: str) -> float:
     """
@@ -56,10 +49,6 @@ def math_tool(expression: str) -> float:
 #-------------------------------------------------------------------------
 # Web Search tool
 #-------------------------------------------------------------------------
-<<<<<<< HEAD
-=======
-
->>>>>>> 5687d1458f8f749b4f7c4e92d71858a83a35d320
 load_dotenv()
 search = SerpAPIWrapper()
 
@@ -79,15 +68,10 @@ def web_search_tool(query: str) -> str:
 #-------------------------------------------------------------------------
 # SQL tool
 #-------------------------------------------------------------------------
-<<<<<<< HEAD
-=======
-
->>>>>>> 5687d1458f8f749b4f7c4e92d71858a83a35d320
 db = SQLDatabase.from_uri("mysql+mysqlconnector://root:abhijeet123@localhost:3306/youtube")
 model_obj = Model()
 model = model_obj.get_model()
 toolkit = SQLDatabaseToolkit(db = db, llm=model)
-<<<<<<< HEAD
 sql_tools = toolkit.get_tools()
 
 #-------------------------------------------------------------------------
@@ -128,6 +112,3 @@ def viz_tool(code: str) -> str:
 # )
 toolkit = GmailToolkit()
 gmail_tools = toolkit.get_tools()
-=======
-sql_tools = toolkit.get_tools()
->>>>>>> 5687d1458f8f749b4f7c4e92d71858a83a35d320
