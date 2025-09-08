@@ -5,7 +5,11 @@ langgraph
 dotenv
 langgraph-supervisor
 langchain_google_genai
+<<<<<<< HEAD
 google-search-results
 streamlit
 langchain_google_community
 langchain-google-community[gmail]
+=======
+google-search-results
+>>>>>>> 5687d1458f8f749b4f7c4e92d71858a83a35d320

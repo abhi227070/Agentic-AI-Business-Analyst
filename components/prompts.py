@@ -71,6 +71,7 @@ Then you should query the schema of the most relevant tables.
 """
 
 #-------------------------------------------------------------------------
+<<<<<<< HEAD
 # Visualization Agent Prompt
 #-------------------------------------------------------------------------
 visualization_prompt = """You are a data visualization assistant.\n
@@ -101,6 +102,8 @@ mail_prompt = (
         "- After sending, confirm success or failure.\n"
     )
 #-------------------------------------------------------------------------
+=======
+>>>>>>> 5687d1458f8f749b4f7c4e92d71858a83a35d320
 # Supervised Agent Prompt
 #-------------------------------------------------------------------------
 supervised_agent_prompt = """
