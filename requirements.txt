@@ -1,0 +1,11 @@
+langchain
+langchain_core
+langchain_community
+langgraph
+dotenv
+langgraph-supervisor
+langchain_google_genai
+google-search-results
+streamlit
+langchain_google_community
+langchain-google-community[gmail]
